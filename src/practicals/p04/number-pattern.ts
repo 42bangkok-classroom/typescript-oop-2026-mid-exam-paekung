@@ -3,9 +3,9 @@ const argsp04 = process.argv
 
 if(argsp04){
     const inputp04 = Number(argsp04[2])
-    if(inputp04 <= 0){
-        process.exit()
-    }
+    // if(inputp04 <= 0){
+    //     process.exit()
+    // }
     
     let pattern = ""
     
