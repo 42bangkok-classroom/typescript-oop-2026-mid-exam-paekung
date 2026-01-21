@@ -1,4 +1,4 @@
-export interface Person {
+interface Person {
   firstName?: string;
   lastName?: string;
   age?: number;
