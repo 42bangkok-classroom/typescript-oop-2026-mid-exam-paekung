@@ -15,7 +15,7 @@ const persons: Person[] = [
 ];
 
 
-function sortPersons(persons: Person[]): Person[] {
+export function sortPersons(persons: Person[]): Person[] {
 
 
   const fileredData = persons.filter((person) => person.firstName!='' && person.age!=undefined && person.age>=1 && person.age<100)
