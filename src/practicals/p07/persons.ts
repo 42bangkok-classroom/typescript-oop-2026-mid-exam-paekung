@@ -1,4 +1,4 @@
-interface Person {
+export interface Person {
   firstName?: string;
   lastName?: string;
   age?: number;
@@ -60,4 +60,4 @@ export function sortPersons(persons: Person[]): Person[] {
   return SortedLname
 }
 
-console.log(sortPersons(persons))
+// console.log(sortPersons(persons))
