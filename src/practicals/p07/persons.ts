@@ -16,9 +16,7 @@ const persons: Person[] = [
 
 
 export function sortPersons(persons: Person[]): Person[] {
-
-
-  const fileredData = persons.filter((person) => person.firstName!='' && person.age!=undefined && person.age>=1 && person.age<100)
+  const fileredData = persons.filter((person) => person.firstName!='' && person.firstName!=undefined && person.age!=undefined && person.age>=1 && person.age<100)
 
   const SortedAge = fileredData.sort((a,b) => {
     if(a.age&&b.age){
@@ -46,7 +44,7 @@ export function sortPersons(persons: Person[]): Person[] {
     return 0
   })
 
-  const SortedLname = SortedAge.sort((a,b) => {
+  const SortedLname = SortedFname.sort((a,b) => {
     if(a.lastName && b.lastName){
       if (a.lastName < b.lastName) {
         return -1;
@@ -62,4 +60,4 @@ export function sortPersons(persons: Person[]): Person[] {
   return SortedLname
 }
 
-// console.log(sortPersons(persons))
+console.log(sortPersons(persons))
