@@ -1,7 +1,7 @@
 /**
  * This file contains the answers to the questions in the quiz.
  * format { question_number: answer }
- * exmaple { "c01": "A" }
+ * exmaple { "c01": "A" } Test
  */
 export const answers = {
   "c01": "",
